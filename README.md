@@ -1,6 +1,6 @@
 # Ruboty::WeatherReport
 
-TODO: Write a gem description
+A Ruboty handler to show weather information
 
 ## Installation
 
