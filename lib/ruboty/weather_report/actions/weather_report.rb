@@ -1,5 +1,5 @@
 module Ruboty
-  module Fizzbuzz
+  module WeatherReport
     module Actions
       class WeatherReport < Ruboty::Actions::Base
         def call
