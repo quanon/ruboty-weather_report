@@ -1,7 +1,7 @@
-require "ruboty/weather_report/version"
+require 'ruboty/weather_report/version'
+require 'ruboty/handlers/weather_report'
 
 module Ruboty
   module WeatherReport
-    # Your code goes here...
   end
 end
