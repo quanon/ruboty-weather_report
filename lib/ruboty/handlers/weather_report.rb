@@ -5,11 +5,11 @@ module Ruboty
     class WeatherReport < Base
       on(
         /天気 (?<city>.*?)\z/,
-        name: 'weather',
+        name: 'weather_report',
         description: 'Show weather condition of the city'
       )
 
-      def fizzbuzz(message)
+      def weather_report(message)
         Ruboty::WeatherReport::Actions::WeatherReport.new(message).call
       end
     end
