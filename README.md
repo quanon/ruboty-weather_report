@@ -18,7 +18,7 @@ And then execute:
 
 | Command | Pattern | Description |
 |:--|:--|:--|
-| 天気 | /天気 (?<city>.*?)\z/ | Show weather condition of the city |
+| 天気 | /天気 (?\<city\>\.\*?)\z/ | Show weather condition of the city |
 
 ## Contributing
 
