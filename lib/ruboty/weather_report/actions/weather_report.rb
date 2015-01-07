@@ -9,7 +9,8 @@ module Ruboty
         private
 
         def weather_report
-          'weather'
+          client = Client.new(message[:city])
+          client.reports.join("\n\n")
         end
       end
     end

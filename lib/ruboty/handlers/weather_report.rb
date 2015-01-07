@@ -1,5 +1,3 @@
-require 'ruboty/weather_report/actions/weather_report'
-
 module Ruboty
   module Handlers
     class WeatherReport < Base
