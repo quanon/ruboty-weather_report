@@ -7,20 +7,18 @@ A Ruboty handler to show weather information
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ruboty-weather_report'
+gem 'ruboty-weather_report', github: 'quanon/ruboty-weather_report'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install ruboty-weather_report
-
 ## Usage
 
-TODO: Write usage instructions here
+| Command | Pattern | Description |
+|:--|:--|:--|
+| 天気 | /天気 (?<city>.*?)\z/ | Show weather condition of the city |
 
 ## Contributing
 
