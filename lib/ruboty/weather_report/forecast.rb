@@ -43,7 +43,7 @@ module Ruboty
       end
 
       def emoji_weather
-        @weather2emoji ||= WEATHER_AND_EMOJI.inject(@weather) do |weather, (name, emoji)|
+        @emoji_weather ||= WEATHER_AND_EMOJI.inject(@weather) do |weather, (name, emoji)|
           weather.gsub(/#{name}/, emoji)
         end
       end
